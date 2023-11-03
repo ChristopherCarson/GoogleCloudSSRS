@@ -1,6 +1,6 @@
 Run this from: 
 C:\Program Files (x86)\Google\Cloud SDK>
 
-gcloud functions deploy getReport --runtime nodejs16 --trigger-http --allow-unauthenticated --entry-point getReport --source C:\Users\chris\Documents\Repos\GoogleCloudSSRS
+gcloud functions deploy getReport --runtime nodejs16 --timeout 540s --region us-west2 --trigger-http --allow-unauthenticated --entry-point getReport --source C:\Users\chris\Documents\Repos\GoogleCloudSSRS
 
 https://us-central1-cssconnections.cloudfunctions.net/getReport
